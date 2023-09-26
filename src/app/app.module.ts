@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ToolbatComponent } from './toolbat/toolbat.component';
 import { MenuComponent } from './menu/menu.component';
+import { ContenidoComponent } from './contenido/contenido.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolbatComponent,
-    MenuComponent
+    MenuComponent,
+    ContenidoComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
